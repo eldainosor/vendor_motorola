@@ -1,3 +1,4 @@
+
 # Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2017 The LineageOS Project
 #
@@ -17,8 +18,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/motorola/msm8916-common/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/motorola/msm8916-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/msm8916-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/msm8916-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/msm8916-common/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
@@ -87,6 +86,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
+    vendor/motorola/msm8916-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libDiagService.so:system/vendor/lib/libDiagService.so \
     vendor/motorola/msm8916-common/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
