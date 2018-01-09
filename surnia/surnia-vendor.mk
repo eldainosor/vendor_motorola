@@ -27,12 +27,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/surnia/proprietary//etc/firmware/synaptics-inx-s2316i-15031102-175833-surnia.tdat:system//etc/firmware/synaptics-inx-s2316i-15031102-175833-surnia.tdat \
     vendor/motorola/surnia/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/harpia/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
-    vendor/motorola/harpia/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/motorola/surnia/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/motorola/harpia/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/harpia/proprietary/lib/libmmcamera_lux_standardization.so:system/lib/libmmcamera_lux_standardization.so \
     vendor/motorola/harpia/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/motorola/harpia/proprietary/lib/libmotimager_utils.so:system/lib/libmotimager_utils.so \
     vendor/motorola/harpia/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/motorola/surnia/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
+    vendor/motorola/harpia/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
     vendor/motorola/harpia/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libactuator_f8v03t_dw9718s.so:system/vendor/lib/libactuator_f8v03t_dw9718s.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libactuator_f8v03t_dw9718s_camcorder.so:system/vendor/lib/libactuator_f8v03t_dw9718s_camcorder.so \
