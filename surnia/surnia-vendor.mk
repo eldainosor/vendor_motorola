@@ -34,15 +34,50 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/harpia/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/surnia/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
     vendor/motorola/harpia/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/motorola/surnia/proprietary/vendor/lib/libactuator_rohm_bu64245gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64245gwz_camcorder.so \
-    vendor/motorola/surnia/proprietary/vendor/lib/libactuator_rohm_bu64245gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64245gwz_camera.so \
-    vendor/motorola/surnia/proprietary/vendor/lib/libactuator_rohm_bu64245gwz.so:system/vendor/lib/libactuator_rohm_bu64245gwz.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libactuator_f8v03t_dw9718s.so:system/vendor/lib/libactuator_f8v03t_dw9718s.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libactuator_f8v03t_dw9718s_camcorder.so:system/vendor/lib/libactuator_f8v03t_dw9718s_camcorder.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libactuator_f8v03t_dw9718s_camera.so:system/vendor/lib/libactuator_f8v03t_dw9718s_camera.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libactuator_l8865aa0_dw9718s.so:system/vendor/lib/libactuator_l8865aa0_dw9718s.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libactuator_l8865aa0_dw9718s_camcorder.so:system/vendor/lib/libactuator_l8865aa0_dw9718s_camcorder.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libactuator_l8865aa0_dw9718s_camera.so:system/vendor/lib/libactuator_l8865aa0_dw9718s_camera.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
-    vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_s5k5e2_common.so:system/vendor/lib/libchromatix_s5k5e2_common.so \
-    vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_s5k5e2_default_video.so:system/vendor/lib/libchromatix_s5k5e2_default_video.so \
-    vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_s5k5e2_hfr_60fps.so:system/vendor/lib/libchromatix_s5k5e2_hfr_60fps.so \
-    vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_s5k5e2_liveshot.so:system/vendor/lib/libchromatix_s5k5e2_liveshot.so \
-    vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_s5k5e2_preview.so:system/vendor/lib/libchromatix_s5k5e2_preview.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_common.so:system/vendor/lib/libchromatix_ov5695_common.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_default_video.so:system/vendor/lib/libchromatix_ov5695_default_video.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_hfr_120fps.so:system/vendor/lib/libchromatix_ov5695_hfr_120fps.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_hfr_60fps.so:system/vendor/lib/libchromatix_ov5695_hfr_60fps.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_hfr_90fps.so:system/vendor/lib/libchromatix_ov5695_hfr_90fps.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_liveshot.so:system/vendor/lib/libchromatix_ov5695_liveshot.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_ofilm_l5695f40_common.so:system/vendor/lib/libchromatix_ov5695_ofilm_l5695f40_common.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_ofilm_l5695f40_default_video.so:system/vendor/lib/libchromatix_ov5695_ofilm_l5695f40_default_video.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_ofilm_l5695f40_liveshot.so:system/vendor/lib/libchromatix_ov5695_ofilm_l5695f40_liveshot.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_ofilm_l5695f40_preview.so:system/vendor/lib/libchromatix_ov5695_ofilm_l5695f40_preview.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_ofilm_l5695f40_snapshot.so:system/vendor/lib/libchromatix_ov5695_ofilm_l5695f40_snapshot.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_ofilm_l5695f40_video_hd.so:system/vendor/lib/libchromatix_ov5695_ofilm_l5695f40_video_hd.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_ofilm_l5695f40_zsl.so:system/vendor/lib/libchromatix_ov5695_ofilm_l5695f40_zsl.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_preview.so:system/vendor/lib/libchromatix_ov5695_preview.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_snapshot.so:system/vendor/lib/libchromatix_ov5695_snapshot.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_video_hd.so:system/vendor/lib/libchromatix_ov5695_video_hd.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov5695_zsl.so:system/vendor/lib/libchromatix_ov5695_zsl.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_f8v03t_common.so:system/vendor/lib/libchromatix_ov8865_f8v03t_common.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_f8v03t_default_video.so:system/vendor/lib/libchromatix_ov8865_f8v03t_default_video.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_f8v03t_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_f8v03t_hfr_120fps.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_f8v03t_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_f8v03t_hfr_60fps.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_f8v03t_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_f8v03t_hfr_90fps.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_f8v03t_liveshot.so:system/vendor/lib/libchromatix_ov8865_f8v03t_liveshot.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_f8v03t_preview.so:system/vendor/lib/libchromatix_ov8865_f8v03t_preview.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_f8v03t_snapshot.so:system/vendor/lib/libchromatix_ov8865_f8v03t_snapshot.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_f8v03t_video_hd.so:system/vendor/lib/libchromatix_ov8865_f8v03t_video_hd.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_f8v03t_zsl.so:system/vendor/lib/libchromatix_ov8865_f8v03t_zsl.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_l8865aa0_common.so:system/vendor/lib/libchromatix_ov8865_l8865aa0_common.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_l8865aa0_default_video.so:system/vendor/lib/libchromatix_ov8865_l8865aa0_default_video.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_l8865aa0_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_l8865aa0_hfr_120fps.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_l8865aa0_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_l8865aa0_hfr_60fps.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_l8865aa0_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_l8865aa0_hfr_90fps.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_l8865aa0_liveshot.so:system/vendor/lib/libchromatix_ov8865_l8865aa0_liveshot.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_l8865aa0_preview.so:system/vendor/lib/libchromatix_ov8865_l8865aa0_preview.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_l8865aa0_snapshot.so:system/vendor/lib/libchromatix_ov8865_l8865aa0_snapshot.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_l8865aa0_video_hd.so:system/vendor/lib/libchromatix_ov8865_l8865aa0_video_hd.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libchromatix_ov8865_l8865aa0_zsl.so:system/vendor/lib/libchromatix_ov8865_l8865aa0_zsl.so \
     vendor/motorola/surnia/proprietary/vendor/lib/libchromatix_s5k5e2_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_snapshot.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -63,8 +98,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/harpia/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_mt9v113.so:system/vendor/lib/libmmcamera_mt9v113.so \
-    vendor/motorola/surnia/proprietary/vendor/lib/libmmcamera_s5k5e2.so:system/vendor/lib/libmmcamera_s5k5e2.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libmmcamera_ov5695.so:system/vendor/lib/libmmcamera_ov5695.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libmmcamera_ov8865_f8v03t.so:system/vendor/lib/libmmcamera_ov8865_f8v03t.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libmmcamera_sunny_d5v16b_eeprom.so:system/vendor/lib/libmmcamera_sunny_d5v16b_eeprom.so \
+    vendor/motorola/harpia/proprietary/vendor/lib/libmmcamera_sunny_f8v03t_eeprom.so:system/vendor/lib/libmmcamera_sunny_f8v03t_eeprom.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/motorola/harpia/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
